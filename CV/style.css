@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    color: #333;
+}
+
+header {
+    position: relative;
+    height: 250px;
+    background: url('header-bg.jpg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 80px;
+}
+
+.top-area {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px 130px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.profile-card {
+    background: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.photo {
+    flex: 1;
+    text-align: center;
+}
+
+.photo img {
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #0073e6;
+    box-shadow: 0px 4px 10px rgba(0, 115, 230, 0.3);
+}
+
+.info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.info ul {
+    padding: 0;
+    list-style: none;
+}
+
+.info li {
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 8px;
+    background: #f0f8ff;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.biography {
+    margin: 40px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.biography h2 {
+    color: #0073e6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border-radius: 0 0 12px 12px;
+    font-size: 14px;
+    margin-top: 20px;
+}
